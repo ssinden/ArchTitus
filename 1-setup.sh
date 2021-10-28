@@ -217,7 +217,7 @@ elif lspci | grep -E "Integrated Graphics Controller"; then
 fi
 
 echo -e "\nDone!\n"
-if ! source install.conf; then
+if ! source installs.conf; then
 	read -p "Please enter username:" username
 echo "username=$username" >> ${HOME}/ArchTitus/install.conf
 fi
