@@ -54,7 +54,6 @@ pacman -Sy --noconfirm
 echo -e "\nInstalling Base System\n"
 
 PKGS=(
-'b43-firmware' #Wifi Card
 'mesa' # Essential Xorg First
 'xorg'
 'xorg-server'
