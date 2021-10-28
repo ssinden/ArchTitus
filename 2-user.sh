@@ -51,6 +51,7 @@ PKGS=(
 'vivaldi'
 'b43-firmware' #Wifi Card
 'plasma-nm'
+'x264'
 
 )
 
