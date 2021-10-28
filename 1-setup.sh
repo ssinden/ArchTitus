@@ -54,6 +54,7 @@ pacman -Sy --noconfirm
 echo -e "\nInstalling Base System\n"
 
 PKGS=(
+'b43-firmware' #Wifi Card
 'mesa' # Essential Xorg First
 'xorg'
 'xorg-server'
@@ -97,9 +98,9 @@ PKGS=(
 'fuse2'
 'fuse3'
 'fuseiso'
-'gamemode'
+#'gamemode'
 'gcc'
-'gimp' # Photo editing
+#'gimp' # Photo editing
 'git'
 'gparted' # partition management
 'gptfdisk'
@@ -108,7 +109,7 @@ PKGS=(
 'gst-libav'
 'gst-plugins-good'
 'gst-plugins-ugly'
-'haveged'
+#'haveged'
 'htop'
 'iptables-nft'
 'jdk-openjdk' # Java 17
@@ -156,7 +157,7 @@ PKGS=(
 'sddm-kcm'
 'snapper'
 'spectacle'
-'steam'
+#'steam'
 'sudo'
 'swtpm'
 'synergy'
@@ -172,9 +173,9 @@ PKGS=(
 'virt-viewer'
 'wget'
 'which'
-'wine-gecko'
-'wine-mono'
-'winetricks'
+#'wine-gecko'
+#'wine-mono'
+#'winetricks'
 'xdg-desktop-portal-kde'
 'xdg-user-dirs'
 'zeroconf-ioslave'
