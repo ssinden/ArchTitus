@@ -233,7 +233,7 @@ then
 	read -p "Enter your domain password: " domainpassword
 	mount -t cifs -o username:ssinden@creb.ca,password=$domainpassword //192.168.238.112/Drop /mnt/mnt
 	rsync --recursive /mnt/mnt/ /home/ssinden
-	umount /mnt
+	umount /mnt/mnt
 else
 	echo "You are already a user proceed with aur installs"
 fi
