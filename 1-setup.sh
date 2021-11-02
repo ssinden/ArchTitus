@@ -62,7 +62,8 @@ PKGS=(
 'xorg-xkill'
 'xorg-xinit'
 'xterm'
-'plasma-desktop' # KDE Load second
+#'plasma-desktop' # KDE Load second
+'plasma'
 'alsa-plugins' # audio plugins
 'alsa-utils' # audio utils
 'ark' # compression
