@@ -230,7 +230,7 @@ then
     chown -R $username: /home/$username/ArchTitus
 	read -p "Please name your machine:" nameofmachine
 	echo $nameofmachine > /etc/hostname
-	mount -t cifs -o username=ssinden@creb.ca //192.168.1.112/Drop /mnt/mnt
+	mount -t cifs -o username=ssinden@creb.ca,password=passwordhere //192.168.1.112/Drop /mnt/mnt
 	rsync --recursive /mnt/mnt/ /home/ssinden
 	umount /mnt/mnt
 else
