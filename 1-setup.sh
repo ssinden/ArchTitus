@@ -230,6 +230,9 @@ then
     chown -R $username: /home/$username/ArchTitus
 	read -p "Please name your machine:" nameofmachine
 	echo $nameofmachine > /etc/hostname
+	read -p "Enter your domain password: " domainpassword
+	mount -t cifs -o username:ssinden@creb.ca,password=$domainpassword //192.168.238.112/Drop /mnt
+	rsync --recursive /mnt/ /home/ssinden
 else
 	echo "You are already a user proceed with aur installs"
 fi
