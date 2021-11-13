@@ -50,11 +50,15 @@ PKGS=(
 'snap-pac'
 'vivaldi'
 'b43-firmware' #Wifi Card
+'broadcom-wl-dkms'
 'plasma-nm'
 'x264'
 'kwallet-pam'
 'powerdevil'
-
+'xmonad'
+'xmobar'
+'dmenu'
+'nitrogen'
 )
 
 for PKG in "${PKGS[@]}"; do
